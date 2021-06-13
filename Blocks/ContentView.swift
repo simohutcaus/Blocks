@@ -12,7 +12,9 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             NavigationView {
-                Text("Tab Content 1")
+                Text("Text")
+                    .font(.title2)
+                    .fontWeight(.bold)
                     .navigationTitle("News")
             }
             .tabItem { Text("News")}.tag(1)
@@ -27,6 +29,7 @@ struct ContentView: View {
             }
             .tabItem { Text("Chat").tag(3)}
         }
+        .accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
     
     }
     
