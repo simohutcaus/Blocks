@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("News")
-            .padding()
+        TabView(selection: .constant(1)) {
+            Text("Tab Content 1").tabItem { Text("News") }.tag(1)
+            Text("Tab Content 2").tabItem { Text("Products") }.tag(2)
+            Text("Tab Content 3").tabItem {
+                Text("Chat") }.tag(3)
+            }
+        }
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
