@@ -12,10 +12,14 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             NavigationView {
-                Text("Text")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .navigationTitle("News")
+                List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        Text("Text")
+                            .font(.title2)
+                            .fontWeight(.bold)                    }
+                        
+                }
+                .navigationTitle("News")
             }
             .tabItem { Text("News")}.tag(1)
             NavigationView {
