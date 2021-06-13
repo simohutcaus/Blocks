@@ -21,17 +21,17 @@ struct ContentView: View {
                 }
                 .navigationTitle("News")
             }
-            .tabItem { Text("News")}.tag(1)
+            .tabItem { Label(/*@START_MENU_TOKEN@*/"News"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"newspaper.fill"/*@END_MENU_TOKEN@*/)}.tag(1)
             NavigationView {
                 Text("Tab Content 2")
                     .navigationTitle("Products")
             }
-            .tabItem { Text("Products")}.tag(2)
+            .tabItem {Label(/*@START_MENU_TOKEN@*/"Products"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"cart.fill"/*@END_MENU_TOKEN@*/) }.tag(2)
             NavigationView {
                 Text("Tab Content 3")
                     .navigationTitle("Chat")
             }
-            .tabItem { Text("Chat").tag(3)}
+            .tabItem {Label(/*@START_MENU_TOKEN@*/"Chat"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"message.fill"/*@END_MENU_TOKEN@*/) }.tag(3)
         }
         .accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
     
