@@ -14,6 +14,7 @@
 		84EA538D26776A640090F16C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA538C26776A640090F16C /* NewsCell.swift */; };
 		84FC4D6B267A1566000A7E5D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4D6A267A1566000A7E5D /* Article.swift */; };
 		84FC4D6D267A15CD000A7E5D /* Article+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4D6C267A15CC000A7E5D /* Article+Mock.swift */; };
+		84FC4D6F267A17CA000A7E5D /* NewsCell+Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4D6E267A17CA000A7E5D /* NewsCell+Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		84EA538C26776A640090F16C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		84FC4D6A267A1566000A7E5D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		84FC4D6C267A15CC000A7E5D /* Article+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+Mock.swift"; sourceTree = "<group>"; };
+		84FC4D6E267A17CA000A7E5D /* NewsCell+Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsCell+Article.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				84EA537D267624A50090F16C /* BlocksApp.swift */,
 				84EA538C26776A640090F16C /* NewsCell.swift */,
 				84FC4D6A267A1566000A7E5D /* Article.swift */,
+				84FC4D6E267A17CA000A7E5D /* NewsCell+Article.swift */,
 				84FC4D6C267A15CC000A7E5D /* Article+Mock.swift */,
 				84EA537F267624A50090F16C /* ContentView.swift */,
 				84EA5381267624A90090F16C /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FC4D6B267A1566000A7E5D /* Article.swift in Sources */,
+				84FC4D6F267A17CA000A7E5D /* NewsCell+Article.swift in Sources */,
 				84EA5380267624A50090F16C /* ContentView.swift in Sources */,
 				84EA538D26776A640090F16C /* NewsCell.swift in Sources */,
 				84FC4D6D267A15CD000A7E5D /* Article+Mock.swift in Sources */,
