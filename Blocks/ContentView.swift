@@ -7,14 +7,19 @@
 
 import SwiftUI
 //test checkin
+
+
+
+
 struct ContentView: View {
+    @State var articleData = [Article.airBlock, Article.blockChain]
     @State private var selection = 0
     var body: some View {
         TabView(selection: $selection) {
             NavigationView {
-                List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                List(articleData, id: \.id) { item in
                     NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                        NewsCell(article: .airBlock)                   }
+                        NewsCell(article: item)                   }
                         
                 }
                 .navigationTitle("News")

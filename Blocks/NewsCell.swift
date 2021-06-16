@@ -15,6 +15,7 @@ struct NewsCell    : View {
     let tertiaryText: Text
     let largeImage: Image
     
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {

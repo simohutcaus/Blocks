@@ -26,4 +26,6 @@ extension Article {
         largeImageName: "houseInterior"
     )
     
+    
+    
 }

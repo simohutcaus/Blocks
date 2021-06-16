@@ -7,11 +7,14 @@
 
 import Foundation
 
-struct Article {
+struct Article: Identifiable {
+    var id = UUID()
     let title: String
     let date: Date
     let detail: String
     let smallImageName: String
     let largeImageName: String
 }
+
+
 
